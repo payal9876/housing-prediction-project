@@ -7,7 +7,7 @@ app=Flask(__name__)
 @app.route("/",methods=['GET','POST'])
 
 def index():
-    return "this is my project"
+    return "this is machine learning project"
 
 
 
