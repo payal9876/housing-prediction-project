@@ -1,14 +1,20 @@
-from housing.pipeline.pipeline import Pipeline
 from housing.exception import HousingException
 from housing.logger import logging
-
+from housing.config.configuration import Configuration
+from housing.entity.config_entity import DataTransformationConfig
+from housing.util.util import load_data
+from housing.pipeline.pipeline import Pipeline
+from housing.component.data_transformation import DataTransformation
+import sys
 def main():
     try:
+      
       pipeline=Pipeline()
       pipeline.run_pipeline()
     except Exception as e:
-        logging.error(e)
+      raise HousingException(e,sys) from e
 
+    
 
 if __name__=="__main__":
     main()
