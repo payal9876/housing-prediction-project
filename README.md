@@ -4,9 +4,10 @@ This is the end to end project where i have used DOCKER to create continuous int
 
 # Objective
  We have the dataset of california housing society where the features are given below
-	
-	
- Longitude
+ 
+ Columns:
+    
+	Longitude
  
 	Latitude
  
@@ -14,7 +15,7 @@ This is the end to end project where i have used DOCKER to create continuous int
  
 	total_room
 
- total_bedroom
+        total_bedroom
  
 	population
  
@@ -23,4 +24,4 @@ This is the end to end project where i have used DOCKER to create continuous int
 	median_income
  
 	ocean_proximity
-
+	
