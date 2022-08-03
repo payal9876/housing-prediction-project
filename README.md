@@ -31,3 +31,9 @@ Now, The objective is to create a machine learning model which can predict price
 
 
 # REQUIREMENTS
+
+  FLASK
+
+  DOCKER
+
+  VSCODE
