@@ -27,4 +27,7 @@ This is the end to end project where i have used DOCKER to create continuous int
 	
 	ocean_proximity
 
- 
+Now, The objective is to create a machine learning model which can predict prices of the houses in the particular region
+
+
+# REQUIREMENTS
