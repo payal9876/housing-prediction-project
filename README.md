@@ -14,14 +14,17 @@ This is the end to end project where i have used DOCKER to create continuous int
 	housing_median_age
  
 	total_room
-
-  total_bedroom
- 
-	population
- 
-	household
- 
-	median_income
- 
-	ocean_proximity
 	
+	population
+	
+	total_bedroom
+	
+	households
+	
+	median_income
+	
+	median_house_value
+	
+	ocean_proximity
+
+ 
