@@ -4,8 +4,8 @@ This is the end to end project where i have used DOCKER to create continuous int
 
 # Objective
  We have the dataset of california housing society where the features are given below
- .Longitude
- .Latitude
+ #Longitude
+ #Latitude
  .housing_median_age
  .total_room
  .total_bedroom
